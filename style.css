@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Blaq;
+    src: url(./Poppins/Poppins-Black.ttf);
+}
+
+@font-face {
+    font-family: medio;
+    src: url(./Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: regular;
+    src: url(./Poppins/Poppins-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* mostruario */
+.img {
+    display: flex;
+    justify-content: space-around;
+    font-family: medio;
+    padding-bottom: 80px;
+    line-height: 1.9rem;
+    font-size: large;
+    font-size: 20px;
+}
+
+
+.img img {
+    border-radius: 19px;
+    height: 500px;
+    width: 350px;
+    padding-bottom: 10px;
+
+}
+
+.nov {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+h2 {
+    font-family: Blaq;
+    margin-left: 5%;
+    font-size: 40px;
+}
+
+.exp {
+    color: #767677;
+}
+
+/* promoção */
+#promocao {
+    background-color: #E6C744;
+}
+
+.roda {
+
+    background-color: #fff;
+}
+
+.content  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content img {
+    margin-left: 100px;
+}
+
+.content h2 {
+    line-height: 6.5rem;
+    margin-left: 180px;
+    font-size: 60px;
+
+}
+
+.content p {
+    margin-left: 180px;
+    margin-right: 190px;
+    flex-wrap: wrap;
+    font-size: 27px;
+    font-family: regular;
+}
+.content h3{
+    margin-top: 30px;
+    margin-left: 290px;
+    font-family: medio;
+    font-size: 28px;
+}
+.content ul li {
+    margin-left: 320px;
+    font-family: regular;
+    font-size: small;
+    margin-top: 9px;
+}
+.content button{
+    margin-left: 180px;
+    margin-top: 15px;
+
+}
+
+.botao {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 45px;
+    border-radius: 4px;
+    border: none;
+    font-family: regular;
+    margin-left: 20px;
+    font-size: x-large;
+}
